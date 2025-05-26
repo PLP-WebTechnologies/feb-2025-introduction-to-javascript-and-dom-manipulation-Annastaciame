@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Interactive Webpage Demo</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Interactive Webpage</h1>
+    </header>
+
+    <main>
+        <section id="dynamicTextSection">
+            <p id="dynamicText">This text will change when you click the button.</p>
+            <button id="changeTextBtn">Change Text</button>
+        </section>
+
+        <section id="styleChangeSection">
+            <p id="colorText">Watch my color change dynamically!</p>
+            <button id="changeColorBtn">Change Color</button>
+        </section>
+
+        <section id="listSection">
+            <h2>Dynamic List</h2>
+            <ul id="itemList">
+                <li>Item 1</li>
+                <li>Item 2</li>
+            </ul>
+            <button id="addItemBtn">Add Item</button>
+            <button id="removeItemBtn">Remove Last Item</button>
+        </section>
+
+        <section id="formSection">
+            <h2>Sample Form</h2>
+            <form id="sampleForm">
+                <label for="nameInput">Name (required):</label>
+                <input type="text" id="nameInput" name="name" required />
+
+                <label for="emailInput">Email (required):</label>
+                <input type="email" id="emailInput" name="email" required />
+
+                <button type="submit">Submit</button>
+            </form>
+            <p id="formMessage"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Interactive Webpage Demo</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
